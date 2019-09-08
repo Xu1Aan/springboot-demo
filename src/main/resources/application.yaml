@@ -19,6 +19,6 @@ spring:
     password: 980618
 #mybatis:
 #  configuration:
-    #map-underscore-to-camel-case: true
+  #map-underscore-to-camel-case: true
   #mapper-locations: mapper/*.xml
 #  type-aliases-package: com.pzhu.pojo
