@@ -1,0 +1,24 @@
+#jdbc:
+#  driverClassName: om.mysql.jdbc.Driver
+#  url: jdbc:mysql://127.0.0.1:3306/test
+#  username: root
+#  password: 980618
+#server:
+#  port: 8088
+#  servlet:
+#    path: /
+#logging:
+#  level:
+#    com.pzhu: debug
+    #org.springframework: debug
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/test
+    username: root
+    password: 980618
+#mybatis:
+#  configuration:
+    #map-underscore-to-camel-case: true
+  #mapper-locations: mapper/*.xml
+#  type-aliases-package: com.pzhu.pojo
