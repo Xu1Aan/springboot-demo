@@ -21,4 +21,4 @@ spring:
 #  configuration:
   #map-underscore-to-camel-case: true
   #mapper-locations: mapper/*.xml
-#  type-aliases-package: com.pzhu.pojo
+  #type-aliases-package: com.pzhu.pojo
